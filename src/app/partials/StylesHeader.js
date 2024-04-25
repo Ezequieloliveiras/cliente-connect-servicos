@@ -15,7 +15,6 @@ const StyledAppBar = styled(AppBar)`
     }
 
 `
-
 const StyledToolbar = styled(Toolbar)`
 
     && {
@@ -41,16 +40,17 @@ const StyledTypographyLogo = styled(Typography)`
 
     && {
         font-weight: bold;
-        font-size: 30px;
+        font-size: 20px;
         color: #757575;
+        margin-right: 5px;
     }
 `
 const StyledTypographyPartialLogo = styled(Typography)`
 
     && {
         font-weight: bold;
-        color: #ef6c00;
-        font-size: 30px;
+        color: #9ccc65;
+        font-size: 20px;
     }
 `
 
@@ -64,8 +64,6 @@ const StyledBoxButtons = styled(Box)`
         }
     }
 `
-
-
 const StyledBoxButtonsMenuIcon = styled(Button)`
 
     && {

@@ -20,8 +20,10 @@ export default function RootLayout({ children }) {
 
         <StyledBody className={inter.className} style={{ margin: '0px', padding: '0px' }}>
           <StyledComponentsRegistry>
-            <Header />
-            {children}
+              <Header />
+              <div style={{minHeight:'100vh'}}>
+                {children}
+              </div>
             <Footer />
           </StyledComponentsRegistry>
         </StyledBody>

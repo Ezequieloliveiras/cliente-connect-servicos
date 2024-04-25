@@ -27,9 +27,9 @@ function ResponsiveAppBar() {
 
                 <StyledLinkLogo href="/" >
 
-                    <StyledTypographyLogo >SITE</StyledTypographyLogo>
+                    <StyledTypographyLogo >CONNECT</StyledTypographyLogo>
 
-                    <StyledTypographyPartialLogo>VIX</StyledTypographyPartialLogo>
+                    <StyledTypographyPartialLogo>SERVIÇOS</StyledTypographyPartialLogo>
 
                 </StyledLinkLogo>
 
@@ -39,6 +39,11 @@ function ResponsiveAppBar() {
                     <StyledBoxButtonsMenu href='/'>
                         Página Inicial
                     </StyledBoxButtonsMenu>
+
+                    <StyledBoxButtonsMenu href='/pages/suporte'>
+                        Suporte
+                    </StyledBoxButtonsMenu>
+                    
                     <StyledBoxButtonsMenu href='/pages/contact'>
                         Contato
                     </StyledBoxButtonsMenu>

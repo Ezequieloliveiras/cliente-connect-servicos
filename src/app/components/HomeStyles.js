@@ -43,7 +43,7 @@ const StyledParagraphyOne = styled.h3`
 const StyledButtonGo = styled.button`
     && {
       padding: 15px 30px;
-      background-color: #f57c00;
+      background-color: #9ccc65;
       font-size: 18px;
       color: #fff;
       border: none;
@@ -94,7 +94,7 @@ const StyledTitleSection = styled.h1`
 `
 const StyledSubtitle= styled.h3`
     && {
-      color: #f57c00;
+      color: #9ccc65;
       font-size: 1.5em;
       margin-bottom: 15px;
       text-align: center;

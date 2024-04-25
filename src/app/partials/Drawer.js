@@ -45,7 +45,7 @@ export default function SwipeableTemporaryDrawer() {
           <ListItem key={text} disablePadding>
             <ListItemButton component={Link} href='/'>
               <ListItemIcon >
-               <HomeIcon sx={{color:'#ef6c00'}}/>
+               <HomeIcon sx={{color:'#9ccc65'}}/>
               </ListItemIcon>
               <ListItemText primary={text} />
             </ListItemButton>
@@ -57,7 +57,7 @@ export default function SwipeableTemporaryDrawer() {
           <ListItem key={text} disablePadding>
             <ListItemButton component={Link} href=''>
               <ListItemIcon >
-                <ElectricalServicesIcon sx={{color:'#ef6c00'}}/> 
+                <ElectricalServicesIcon sx={{color:'#9ccc65'}}/> 
               </ListItemIcon >
               <ListItemText primary={text} />
             </ListItemButton>
@@ -69,7 +69,7 @@ export default function SwipeableTemporaryDrawer() {
           <ListItem key={text} disablePadding>
             <ListItemButton component={Link} href='/pages/contact'>
               <ListItemIcon >
-              <CallIcon sx={{color:'#ef6c00'}}/>
+              <CallIcon sx={{color:'#9ccc65'}}/>
               </ListItemIcon>
               <ListItemText primary={text} />
             </ListItemButton>
@@ -81,7 +81,7 @@ export default function SwipeableTemporaryDrawer() {
           <ListItem key={text} disablePadding>
             <ListItemButton component={Link} href=''>
               <ListItemIcon >
-              <ContactSupportIcon sx={{color:'#ef6c00'}}/>
+              <ContactSupportIcon sx={{color:'#9ccc65'}}/>
               </ListItemIcon>
               <ListItemText primary={text} />
             </ListItemButton>
@@ -93,7 +93,7 @@ export default function SwipeableTemporaryDrawer() {
           <ListItem key={text} disablePadding>
             <ListItemButton component={Link} href=''>
               <ListItemIcon >
-              <AttachEmailIcon sx={{color:'#ef6c00'}}/>
+              <AttachEmailIcon sx={{color:'#9ccc65'}}/>
               </ListItemIcon>
               <ListItemText primary={text} />
             </ListItemButton>
@@ -108,7 +108,7 @@ export default function SwipeableTemporaryDrawer() {
     <div>
       {anchorValues.map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}><MenuIcon sx={{color:'#ef6c00'}} /></Button>
+          <Button onClick={toggleDrawer(anchor, true)}><MenuIcon sx={{color:'#9ccc65'}} /></Button>
           <SwipeableDrawer
             anchor={anchor}
             open={state[anchor]}
