@@ -9,7 +9,6 @@ import {
     StyledBoxButtons,
     StyledBoxButtonsMenu,
     StyledBoxContent,
-
 } from './StylesHeader'
 
 
@@ -21,6 +20,7 @@ function ResponsiveAppBar() {
             <StyledToolbar disableGutters>
 
                 <StyledBoxButtons>
+                    
                 <Drawer />
                     
                 </StyledBoxButtons>
@@ -43,7 +43,7 @@ function ResponsiveAppBar() {
                     <StyledBoxButtonsMenu href='/pages/suporte'>
                         Suporte
                     </StyledBoxButtonsMenu>
-                    
+
                     <StyledBoxButtonsMenu href='/pages/contact'>
                         Contato
                     </StyledBoxButtonsMenu>

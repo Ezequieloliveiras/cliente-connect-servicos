@@ -70,7 +70,6 @@ const StyledBoxButtonsMenuIcon = styled(Button)`
         color: #ef6c00;
     }
 `
-
 const StyledBoxButtonsMenu = styled(Button)`
 
     && {
@@ -78,7 +77,6 @@ const StyledBoxButtonsMenu = styled(Button)`
         display: block;
     }
 `
-
 const StyledBoxContent = styled(Box)`
 
     && {

@@ -4,7 +4,7 @@ import { Grid } from '@mui/material'
 import Carousel from './components/carousel/Carousel'
 import SectionOne from './components/sectionOne/SectionOne'
 import SectionTwo from './components/sectionTwo/SectionTwo'
- import SectionTree from './components/sectionTree/SectionTree'
+import SectionTree from './components/sectionTree/SectionTree'
 
 export default function Home() {
 
@@ -13,15 +13,15 @@ export default function Home() {
 
       <Grid item xs={25}>
 
-        <Carousel/>
+        <Carousel />
 
       </Grid>
 
-      <SectionOne/>
+      <SectionOne />
 
-        <SectionTwo/> 
+      <SectionTwo />
 
-     <SectionTree />  
+      <SectionTree />
 
     </Grid>
 

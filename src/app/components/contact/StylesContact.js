@@ -17,8 +17,7 @@ const StyledBox = styled(Card)`
     justify-content: center;
 `
 const StyledBoxContacts = styled(Box)`
-    display: flex;
-    
+    display: flex; 
 `
 const StyledForwardToInboxIcon = styled(ForwardToInboxIcon)`
     margin-right: 10px;
@@ -34,7 +33,6 @@ const StyledBanner = styled(Image)`
   height: 100%;
   object-fit: cover;
 `
-
 const StyledContainerBanner = styled(Grid)`
     height: 300px;
     width: 100%;
@@ -52,7 +50,6 @@ const StyledDivCard = styled.div`
   display:flex;
   justify-content:center;
 `
-
 export {
     StyledDivCard,
     StyledContainer,
