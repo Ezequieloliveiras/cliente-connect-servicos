@@ -2,11 +2,13 @@ import styled from 'styled-components'
 
 import { Box, Grid } from '@mui/material'
 
+
 const StyledGridSectionOne = styled(Grid)`
     && {
-      background-color: #fff;
+      height: 500px;
       padding: 50px 10px 50px 10px;
       text-align: center;
+      background-color: grey;
     }
 `
 
@@ -20,7 +22,7 @@ const StyledBoxSectionOne = styled(Box)`
 const StyledTitleOne = styled.h1`
     && {
       font-size: 2.8em;
-      color: #757575;
+      color: #9ccc65;
       margin-bottom: 20px;
       text-align: center;
 
@@ -32,7 +34,7 @@ const StyledTitleOne = styled.h1`
 const StyledParagraphyOne = styled.h3`
     && {
       font-size: 20;
-      color: #666;
+      color: #fff;
       line-height: 1.6;
       font-weight: 400;
       margin-bottom: 30px;
@@ -55,7 +57,7 @@ const StyledButtonGo = styled.button`
 
 const StyledGridSectionTwo = styled(Grid)`
     && {
-      background-color: #f9f9f9;
+      background-color: #fff;
       padding-top: 50px;
       padding-bottom: 50px;
       text-align: center;
@@ -130,7 +132,7 @@ const StyledBoxImage= styled.div`
 
 const StyledGridSectionTree = styled(Grid)`
     && {
-      background-color: #fff;
+      background-color: #f9f9f9;
       padding: 50px 0;
       text-align: center;
     }

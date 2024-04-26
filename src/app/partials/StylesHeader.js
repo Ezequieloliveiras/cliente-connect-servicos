@@ -12,6 +12,7 @@ const StyledAppBar = styled(AppBar)`
         background-color:#fff;
         display:flex;
         justify-content:center;
+        
     }
 
 `
