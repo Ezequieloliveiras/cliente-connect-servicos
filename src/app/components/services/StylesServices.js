@@ -6,7 +6,7 @@ const Container = styled.div`
   && {
   max-width: 800px;
   margin: 0 auto;
-  padding: 5px;
+  padding: 40px 5px;
 }
 `
 const Title = styled.h1`
