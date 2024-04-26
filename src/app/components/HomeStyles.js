@@ -5,7 +5,7 @@ import { Box, Grid } from '@mui/material'
 
 const StyledGridSectionOne = styled(Grid)`
     && {
-      height: 500px;
+      min-height: 500px;
       padding: 50px 10px 50px 10px;
       text-align: center;
       background-color: #424242;
