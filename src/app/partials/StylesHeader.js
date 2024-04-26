@@ -53,7 +53,6 @@ const StyledTypographyPartialLogo = styled(Typography)`
         font-size: 20px;
     }
 `
-
 const StyledBoxButtons = styled(Box)`
 
     && {

@@ -41,7 +41,7 @@ export default function SwipeableTemporaryDrawer() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {['Pagina Inicial'].map((text, index) => (
+        {['Pagina Inicial'].map((text) => (
           <ListItem key={text} disablePadding>
             <ListItemButton component={Link} href='/'>
               <ListItemIcon >
@@ -53,9 +53,9 @@ export default function SwipeableTemporaryDrawer() {
         ))}
       </List>
       <List>
-        {['Serviços'].map((text, index) => (
+        {['Serviços'].map((text) => (
           <ListItem key={text} disablePadding>
-            <ListItemButton component={Link} href=''>
+            <ListItemButton component={Link} href='/pages/servicos'>
               <ListItemIcon >
                 <ElectricalServicesIcon sx={{color:'#9ccc65'}}/> 
               </ListItemIcon >
@@ -65,7 +65,7 @@ export default function SwipeableTemporaryDrawer() {
         ))}
       </List>
       <List>
-        {['Contato'].map((text, index) => (
+        {['Contato'].map((text) => (
           <ListItem key={text} disablePadding>
             <ListItemButton component={Link} href='/pages/contact'>
               <ListItemIcon >
@@ -77,7 +77,7 @@ export default function SwipeableTemporaryDrawer() {
         ))}
       </List>
       <List>
-        {['Suporte'].map((text, index) => (
+        {['Suporte'].map((text) => (
           <ListItem key={text} disablePadding>
             <ListItemButton component={Link} href=''>
               <ListItemIcon >
@@ -89,7 +89,7 @@ export default function SwipeableTemporaryDrawer() {
         ))}
       </List>
       <List>
-        {['Enviar email'].map((text, index) => (
+        {['Enviar email'].map((text) => (
           <ListItem key={text} disablePadding>
             <ListItemButton component={Link} href=''>
               <ListItemIcon >
