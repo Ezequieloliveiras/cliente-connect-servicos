@@ -6,7 +6,7 @@ const Container = styled.div`
   && {
   max-width: 800px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 5px;
 }
 `
 const Title = styled.h1`
@@ -69,10 +69,14 @@ const ServiceDescription = styled(Typography)`
   margin-top: 20px;
   text-align: center;
 }
-  
 `
-
+const Styledtitle = styled.h1`
+    font-size: 2.8em;
+    color: #757575;
+    text-align: center;
+`
 export {
+    Styledtitle,
     StyledBoxDescription,
     ServiceDescription,
     ServiceTitle,

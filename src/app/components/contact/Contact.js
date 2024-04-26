@@ -1,6 +1,5 @@
-import { Box, Typography, Link, Card, Grid } from '@mui/material'
+import { Box, Typography, Link } from '@mui/material'
 
-import Banner from './banner.png'
 import {
   StyledDivCard,
   StyledContainer,
@@ -10,9 +9,9 @@ import {
   StyledForwardToInboxIcon,
   StyledBoxContacts,
   StyledBox,
-
 } from './StylesContact'
 
+import Banner from './banner.png'
 
 const ContactPage = () => {
 
@@ -61,10 +60,8 @@ const ContactPage = () => {
           </Box>
 
         </StyledBox>
+        
       </StyledDivCard>
-
-
-
 
     </StyledContainer>
 

@@ -1,5 +1,3 @@
-import Head from 'next/head'
-
 import cameraImage from './images/cameras.png'
 import cabeamentoImage from './images/cabeamento.png'
 import nobreaksImage from './images/nobreak.png'
@@ -7,22 +5,15 @@ import servidoresImage from './images/servidor.png'
 import computadoresImage from './images/computador.png'
 
 import {
+    Styledtitle,
     StyledBoxDescription,
     ServiceDescription,
     ServiceTitle,
     ServiceImage,
     StyledBoxImage,
     ServiceSection,
-    Title,
     Container,
 } from './StylesServices'
-import styled from 'styled-components'
-
-const Styledtitle = styled.h1`
-    font-size: 2.8em;
-    color: #757575;
-    text-align: center;
-`
 
 const Services = () => {
     return (
