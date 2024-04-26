@@ -74,6 +74,9 @@ const Styledtitle = styled.h1`
     font-size: 2.8em;
     color: #757575;
     text-align: center;
+    @media (max-width: 768px) {
+    font-size: 35px;
+}
 `
 export {
     Styledtitle,
