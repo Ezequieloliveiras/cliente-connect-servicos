@@ -18,19 +18,19 @@ export default function SectionOne() {
 
           <StyledTitleOne >
 
-            Tenha um site incrível para o seu negócio!
+            Proteja seu negócio com sistemas de vigilância de ponta!
 
           </StyledTitleOne>
 
           <StyledParagraphyOne >
 
-            Nossa equipe especializada está pronta para criar um site que destaque sua marca, atraia mais clientes e impulsione suas vendas. Não perca tempo, dê o próximo passo para o sucesso online!
+            Nossa equipe especializada está pronta para implementar soluções avançadas de segurança, incluindo instalação de câmeras de última geração, cabeamento estruturado, manutenção de nobreaks, instalação de servidores e manutenção de computadores. Não deixe sua empresa vulnerável, proteja seus ativos agora!
 
           </StyledParagraphyOne>
 
           <StyledButtonGo>
 
-              Comece agora
+            Entre em contato
 
           </StyledButtonGo>
 

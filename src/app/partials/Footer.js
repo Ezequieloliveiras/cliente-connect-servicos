@@ -27,9 +27,9 @@ const Footer = () => {
 
             <StyledList >
 
-              <Typography>Email: ezequieloliveiraes@outlook.com</Typography>
+              <Typography>Email: connectservicos@email.com</Typography>
 
-              <Typography>Telefone: (27) 99733-7338</Typography>
+              <Typography>Telefone: (27) 99999-9999</Typography>
 
               <Typography>Endereço: Vitória-ES</Typography>
 
@@ -43,8 +43,7 @@ const Footer = () => {
 
             <Typography>
 
-              Somos apaixonados por transformar ideias em realidade digital. Como criador de sites, nosso objetivo é ajudar indivíduos e empresas a alcançarem sua presença online de forma impactante e eficaz.
-
+            Nossa equipe oferece serviços de soluções tecnológicas para residências e empresas.
             </Typography>
 
           </Grid>

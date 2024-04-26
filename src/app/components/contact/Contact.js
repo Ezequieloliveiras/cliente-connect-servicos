@@ -45,7 +45,7 @@ const ContactPage = () => {
 
               <StyledForwardToInboxIcon />
 
-              <Link href="mailto:ezequieloliveiraes@outlook.com">ezequieloliveiraes@outlook.com</Link>
+              <Link href="mailto:connectservicos@email.com">connectservicos@email.com</Link>
 
             </StyledBoxContacts>
 
@@ -53,7 +53,7 @@ const ContactPage = () => {
 
               <StyledWhatsAppIcon />
 
-              <Link href="https://api.whatsapp.com/send?phone=27997337338">WhatsApp</Link>
+              <Link href="https://api.whatsapp.com/send?phone=279999-9999">WhatsApp</Link>
 
             </StyledBoxContacts>
 

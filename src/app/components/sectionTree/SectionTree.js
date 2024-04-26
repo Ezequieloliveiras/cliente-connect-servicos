@@ -14,7 +14,7 @@ export default function SectionTree() {
   return (
     <>
 
-      <StyledGridSectionTree item xs={12} sx={{height:'auto'}}>
+      <StyledGridSectionTree item xs={12} sx={{ height: 'auto' }}>
 
         <StyledBoxSection>
 
@@ -30,13 +30,13 @@ export default function SectionTree() {
 
               <StyledSubtitle>
 
-                Experiência Profissional
+                Experiência em Soluções de Segurança
 
               </StyledSubtitle>
 
               <StyledParagraphy>
 
-                Nossa equipe tem anos de experiência em design e desenvolvimento de sites, garantindo qualidade e profissionalismo em cada projeto.
+                Nossa equipe tem uma vasta experiência em projetos de segurança, incluindo instalação de câmeras de vigilância, cabeamento estruturado e configuração de servidores, proporcionando tranquilidade e proteção para o seu negócio.
 
               </StyledParagraphy>
 
@@ -46,13 +46,13 @@ export default function SectionTree() {
 
               <StyledSubtitle>
 
-                Design Personalizado
+                Soluções Personalizadas
 
               </StyledSubtitle>
 
               <StyledParagraphy>
 
-                Criamos sites sob medida para cada cliente, garantindo que cada detalhe represente fielmente a sua marca e atraia seu público-alvo.
+                Desenvolvemos soluções personalizadas para atender às necessidades específicas de segurança da sua empresa, garantindo que cada detalhe do sistema de vigilância seja adaptado às suas exigências e ambiente.
 
               </StyledParagraphy>
 
@@ -62,13 +62,13 @@ export default function SectionTree() {
 
               <StyledSubtitle>
 
-                Suporte Contínuo
+                Suporte Técnico Especializado
 
               </StyledSubtitle>
 
               <StyledParagraphy>
 
-                Estamos sempre aqui para ajudar! Oferecemos suporte contínuo após o lançamento do site, garantindo que você esteja sempre satisfeito com nosso serviço.
+                Estamos comprometidos em fornecer suporte técnico especializado, oferecendo assistência rápida e eficiente na manutenção de computadores, nobreaks e outros equipamentos essenciais para a segurança e funcionamento do seu sistema de vigilância.
 
               </StyledParagraphy>
 

@@ -5,10 +5,7 @@ import {
   StyledTitleSection,
 } from '../HomeStyles'
 
-
-import CardPrimary from './cards/CardPrimary'
-import CardTwo from './cards/CardSecondary'
-import CardThird from './cards/CardThird'
+import  ServiceImage  from './ImagesServices'
 
 export default function SectionTwo() {
 
@@ -18,29 +15,17 @@ export default function SectionTwo() {
 
       <StyledGridSectionTwo item xs={12}>
 
-          <StyledTitleSection>
+        <StyledTitleSection>
 
-            Tipos de Sites que Criamos
+          Trabalhos Realizados
 
-          </StyledTitleSection>
+        </StyledTitleSection>
 
-          <Box>
+        <Box>
 
-            <Box sx={{ display: 'flex', justifyContent: 'center' }} >
+         <ServiceImage />
 
-              <Grid container sx={{ display: 'flex', justifyContent: 'center' }} >
-
-                <CardPrimary />
-
-                <CardTwo />
-
-                <CardThird />
-
-              </Grid>
-
-            </Box>
-
-          </Box>
+        </Box>
 
       </StyledGridSectionTwo>
 
