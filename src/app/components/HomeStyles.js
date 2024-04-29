@@ -1,7 +1,5 @@
 import styled from 'styled-components'
-
 import { Box, Grid } from '@mui/material'
-
 
 const StyledGridSectionOne = styled(Grid)`
     && {
@@ -11,14 +9,12 @@ const StyledGridSectionOne = styled(Grid)`
       background-color: #424242;
     }
 `
-
 const StyledBoxSectionOne = styled(Box)`
     && {
       max-width: 800px;
       margin: 0 auto;
     }
 `
-
 const StyledTitleOne = styled.h1`
     && {
       font-size: 2.8em;
@@ -41,7 +37,6 @@ const StyledParagraphyOne = styled.h3`
       text-align: center;
     }
 `
-
 const StyledButtonGo = styled.button`
     && {
       padding: 15px 30px;
@@ -54,7 +49,6 @@ const StyledButtonGo = styled.button`
       transition: background-color 0.3s ease;
     }
 `
-
 const StyledGridSectionTwo = styled(Grid)`
     && {
       background-color: #fff;
@@ -69,8 +63,7 @@ const StyledBoxTitle = styled(Box)`
         height: 202px;
     }
   }
-`;
-
+`
 const StyledBoxSection = styled(Box)`
     && {
       max-width: 1200px;
@@ -80,7 +73,6 @@ const StyledBoxSection = styled(Box)`
         }
     }
 `
-
 const StyledTitleSection = styled.h1`
     && {
       font-size: 2.6em;
@@ -106,7 +98,6 @@ const StyledSubtitle= styled.h3`
       }
     }
 `
-
 const StyledParagraphy= styled.p`
     && {
       margin-bottom: 20px;
@@ -116,7 +107,6 @@ const StyledParagraphy= styled.p`
       text-align: center;
     }
 `
-
 const StyledBoxImage= styled.div`
     && {
       width: 100%;
@@ -129,7 +119,6 @@ const StyledBoxImage= styled.div`
       }
     }
 `
-
 const StyledGridSectionTree = styled(Grid)`
     && {
       background-color: #f9f9f9;
@@ -137,7 +126,6 @@ const StyledGridSectionTree = styled(Grid)`
       text-align: center;
     }
 `
-
 const StyledImage = styled.img`
     && {
       width: 100%;
