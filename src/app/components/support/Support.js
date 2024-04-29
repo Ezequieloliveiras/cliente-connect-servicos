@@ -1,7 +1,8 @@
 // components/SupportPage.js
 
-import Head from 'next/head';
-import styled from 'styled-components';
+import { Divider } from '@mui/material'
+import Head from 'next/head'
+import styled from 'styled-components'
 
 const Container = styled.div`
   max-width: 800px;
@@ -19,7 +20,7 @@ const Section = styled.div`
   background-color: #f9f9f9;
   padding: 20px;
   border-radius: 5px;
-
+  margin-top: 20px;
   h2 {
     margin-top: 0;
   }
@@ -63,17 +64,17 @@ const SupportPage = () => {
                 <h1>Canal de Suporte</h1>
                 <p>Bem-vindo(a) a nossa página de suporte. Estamos aqui para ajudá-lo!</p>
                 <div>
-                    <h4>    Clique no botão abaixo para solicitar um suporte</h4>
+                    <Divider />
+                    <h4>Clique no botão abaixo para solicitar um suporte</h4>
                     <SupportButton href='#'>
-                        Solicitar Suporte
+                        Solicitar suporte
                     </SupportButton>
-
                 </div>
                 <br/>
                 <SupportContent>
         
-                    <Section className="contact-form">
-                        <h2 style={{ textAlign: 'center' }}>Alguns dos atendimentos que realizamos</h2>
+                    <Section>
+                        <h2 style={{ textAlign: 'center', marginBottom:'40px' }}>Alguns dos atendimentos que realizamos</h2>
                         <form>
                             <Topic>
                                 <strong>Implementação de Soluções Avançadas de Segurança:</strong>

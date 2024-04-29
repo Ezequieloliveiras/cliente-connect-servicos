@@ -79,7 +79,7 @@ export default function SwipeableTemporaryDrawer() {
       <List>
         {['Suporte'].map((text) => (
           <ListItem key={text} disablePadding>
-            <ListItemButton component={Link} href=''>
+            <ListItemButton component={Link} href='/pages/support'>
               <ListItemIcon >
               <ContactSupportIcon sx={{color:'#9ccc65'}}/>
               </ListItemIcon>
