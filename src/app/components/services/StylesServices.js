@@ -72,7 +72,7 @@ const ServiceDescription = styled(Typography)`
 `
 const Styledtitle = styled.h1`
     font-size: 2.8em;
-    color: #757575;
+    color: rgb(12, 60, 96);
     text-align: center;
     @media (max-width: 768px) {
     font-size: 35px;

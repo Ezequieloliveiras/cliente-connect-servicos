@@ -76,7 +76,7 @@ const StyledBoxSection = styled(Box)`
 const StyledTitleSection = styled.h1`
     && {
       font-size: 2.6em;
-      color: #757575;
+      color: rgb(12, 60, 96);
       margin-top: 50px;
       margin-bottom: 40px;
       text-align: center;

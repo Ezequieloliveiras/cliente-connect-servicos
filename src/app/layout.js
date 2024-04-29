@@ -11,6 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 const StyledBody = styled.body`
 margin: 0;
 padding: 0;
+color: grey;
 `
 
 export default function RootLayout({ children }) {

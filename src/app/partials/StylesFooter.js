@@ -5,7 +5,7 @@ import styled from 'styled-components'
 const StyledBoxFooter = styled(Box)`
 
     && {
-      background-color: #9ccc65;
+      background-color: rgb(12, 60, 96);
       color: #fff;
       padding: 50px 0 ;
     }

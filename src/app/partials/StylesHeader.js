@@ -9,7 +9,7 @@ import Link from 'next/link'
 const StyledAppBar = styled(AppBar)`
 
     && {
-        background-color:#fff;
+        background-color: rgb(12, 60, 96);
         display:flex;
         justify-content:center;
         
@@ -42,7 +42,7 @@ const StyledTypographyLogo = styled(Typography)`
     && {
         font-weight: bold;
         font-size: 20px;
-        color: #757575;
+        color: #fff;
         margin-right: 5px;
     }
 `
@@ -73,7 +73,7 @@ const StyledBoxButtonsMenuIcon = styled(Button)`
 const StyledBoxButtonsMenu = styled(Button)`
 
     && {
-        color: #757575;
+        color: #fff;
         display: block;
     }
 `
