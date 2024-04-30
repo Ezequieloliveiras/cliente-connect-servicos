@@ -75,6 +75,7 @@ const StyledBoxButtonsMenu = styled(Button)`
     && {
         color: #fff;
         display: block;
+        text-transform: none;
     }
 `
 const StyledBoxContent = styled(Box)`

@@ -86,7 +86,7 @@ export default function SwipeableTemporaryDrawer() {
 
           <ListItem key={text} disablePadding>
 
-            <ListItemButton component={Link} href='/pages/servicos'>
+            <ListItemButton component={Link} href='/pages/works'>
 
               <ListItemIcon >
 
