@@ -1,0 +1,26 @@
+.container {
+    width: auto;
+    padding-top: 50px;
+}
+
+.title {
+    text-align: center;
+    margin: 24px 0;
+}
+
+.slider-item {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+@media (max-width: 500px) {
+    .slider-item {
+        height: 300px;
+        width: 95%;
+    }
+}
+
+.slider-item-container {
+    position: relative;
+}

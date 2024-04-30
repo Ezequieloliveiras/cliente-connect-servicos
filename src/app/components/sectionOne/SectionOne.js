@@ -1,26 +1,32 @@
+import Image from 'next/image'
 import {
   StyledGridSectionOne,
   StyledBoxSectionOne,
-  StyledTitleOne,
+  StyledTitleSection,
   StyledParagraphyOne,
   StyledButtonGo,
 } from '../HomeStyles'
 
-export default function SectionOne() {
 
+import Banner from './esample.jpg'
+
+
+
+export default function SectionOne() {
 
   return (
     <>
+      <Image src={Banner} style={{ height: 'auto', width: '100%', display: 'flex', objectFit:'cover' }} />
 
       <StyledGridSectionOne item xs={12}>
 
-        <StyledBoxSectionOne>
+        <StyledBoxSectionOne >
 
-          <StyledTitleOne >
+          <StyledTitleSection >
 
             Proteja seu negócio com sistemas de vigilância de ponta!
 
-          </StyledTitleOne>
+          </StyledTitleSection>
 
           <StyledParagraphyOne >
 
@@ -36,7 +42,8 @@ export default function SectionOne() {
 
         </StyledBoxSectionOne>
 
-      </StyledGridSectionOne>
+      </StyledGridSectionOne >
+
 
     </>
 

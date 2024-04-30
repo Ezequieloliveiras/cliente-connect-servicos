@@ -1,40 +1,47 @@
 import styled from 'styled-components'
 import { Box, Grid } from '@mui/material'
 
+
 const StyledGridSectionOne = styled(Grid)`
     && {
       min-height: 500px;
-      padding: 50px 10px 50px 10px;
       text-align: center;
-      background-color: #424242;
+      background-color: #f9f9f9;
     }
 `
 const StyledBoxSectionOne = styled(Box)`
     && {
       max-width: 800px;
       margin: 0 auto;
+      padding: 100px 10px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
 `
-const StyledTitleOne = styled.h1`
+const StyledTitleSection = styled.h1`
     && {
-      font-size: 2.8em;
-      color: #9ccc65;
-      margin-bottom: 20px;
+      font-size: 2.6em;
+      color: rgb(12, 60, 96);
+      margin-top: 0px;
+      margin-bottom: 0px;
       text-align: center;
 
       @media (max-width: 600px) {
-          font-size: 2rem;
+          font-size: 27px;
       }
     }
 `
 const StyledParagraphyOne = styled.h3`
     && {
       font-size: 20;
-      color: #fff;
       line-height: 1.6;
       font-weight: 400;
       margin-bottom: 30px;
       text-align: center;
+      color: grey;
     }
 `
 const StyledButtonGo = styled.button`
@@ -51,10 +58,14 @@ const StyledButtonGo = styled.button`
 `
 const StyledGridSectionTwo = styled(Grid)`
     && {
-      background-color: #fff;
       padding-top: 50px;
       padding-bottom: 50px;
       text-align: center;
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #fff;
     }
 `
 const StyledBoxTitle = styled(Box)`
@@ -69,24 +80,11 @@ const StyledBoxSection = styled(Box)`
       max-width: 1200px;
       margin: 0 auto;
         @media (max-width: 600px) {
-            padding: 0 15px;
+            padding: 0 10px;
         }
     }
 `
-const StyledTitleSection = styled.h1`
-    && {
-      font-size: 2.6em;
-      color: rgb(12, 60, 96);
-      margin-top: 50px;
-      margin-bottom: 40px;
-      text-align: center;
-
-      @media (max-width: 600px) {
-          font-size: 2rem;
-      }
-    }
-`
-const StyledSubtitle= styled.h3`
+const StyledSubtitle = styled.h3`
     && {
       color: #9ccc65;
       font-size: 1.5em;
@@ -94,11 +92,11 @@ const StyledSubtitle= styled.h3`
       text-align: center;
 
       @media (max-width: 600px) {
-          font-size: 1.5rem;
+          font-size: 20px;
       }
     }
 `
-const StyledParagraphy= styled.p`
+const StyledParagraphy = styled.p`
     && {
       margin-bottom: 20px;
       color: #666;
@@ -107,7 +105,7 @@ const StyledParagraphy= styled.p`
       text-align: center;
     }
 `
-const StyledBoxImage= styled.div`
+const StyledBoxImage = styled.div`
     && {
       width: 100%;
       height: auto;
@@ -121,9 +119,13 @@ const StyledBoxImage= styled.div`
 `
 const StyledGridSectionTree = styled(Grid)`
     && {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       background-color: #f9f9f9;
       padding: 50px 0;
       text-align: center;
+      min-height: 600px;
     }
 `
 const StyledImage = styled.img`
@@ -133,19 +135,18 @@ const StyledImage = styled.img`
     }
 `
 
-export{
-    StyledGridSectionOne,
-    StyledBoxSectionOne,
-    StyledTitleOne,
-    StyledParagraphyOne,
-    StyledButtonGo,
-    StyledGridSectionTwo,
-    StyledBoxTitle,
-    StyledBoxSection,
-    StyledTitleSection,
-    StyledSubtitle,
-    StyledParagraphy,
-    StyledBoxImage,
-    StyledGridSectionTree,
-    StyledImage,
+export {
+  StyledGridSectionOne,
+  StyledBoxSectionOne,
+  StyledParagraphyOne,
+  StyledButtonGo,
+  StyledGridSectionTwo,
+  StyledBoxTitle,
+  StyledBoxSection,
+  StyledTitleSection,
+  StyledSubtitle,
+  StyledParagraphy,
+  StyledBoxImage,
+  StyledGridSectionTree,
+  StyledImage,
 }

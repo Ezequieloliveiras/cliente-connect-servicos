@@ -1,50 +1,53 @@
-import {
-    Card,
-    CardMedia,
-    Container,
-    Grid,
-    Box
-} from '@mui/material'
+import {register} from 'swiper/element/bundle'
+import { Swiper, SwiperSlide } from 'swiper/react'
 
-import Carousel from 'react-material-ui-carousel'
+import 'swiper/css'
+import 'swiper/css/pagination'
+import 'swiper/css/scrollbar'
+import 'swiper/css/autoplay'
+import './carousel.css'
 
-export default function LabTabs() {
+register()
 
-    return (
+function Carousel() {
 
-        <Container>
+const data = [
 
-            <Grid container spacing={3} sx={{ display: 'flex', justifyContent: 'center' }}>
+    {id: '1', image: 'https://i.imgur.com/eXpeNf2.png', title: 'Sites Corporativos'},
+    {id: '2', image: 'https://i.imgur.com/bWLTwdI.png', title:'Lojas Online'},
+    {id: '3', image: 'https://i.imgur.com/CzA6DD2.png', title:'Blogs'},
 
-                <Grid item xs={9} sx>
-                    <Box >
-                        <Carousel>
-                            <Card style={{ height: '100%' }}>
+]
 
-                                <CardMedia sx={{ paddingTop: '56%' }} image='https://source.unsplash.com/random?a=1' />
+    return(
 
-                            </Card>
+        <div className='container'>
 
-                            <Card style={{ height: '100%' }}>
+        <Swiper 
+          className='swiper-slider'
+          slidesPerView={1}
+          pagination={{clickable: true}}
+          autoplay={true}
+          >
+          {data.map((item) => (
 
-                                <CardMedia sx={{ paddingTop: '56%' }} image='https://source.unsplash.com/random?a=2' />
+            <SwiperSlide key={item.id} className='swiper-slider'>
 
-                            </Card>
+              <div className="slider-item-container">
 
-                            <Card style={{ height: '100%' }}>
+                <img src={item.image} alt='slider' className='slider-item' />
 
-                                <CardMedia sx={{ paddingTop: '56%' }} image='https://source.unsplash.com/random?a=3' />
+              </div>
 
-                            </Card>
+            </SwiperSlide>
 
-                        </Carousel>
+          ))}
 
-                    </Box>
+        </Swiper>
 
-                </Grid>
-
-            </Grid>
-
-        </Container>
+      </div>
+      
     )
 }
+
+export default Carousel
