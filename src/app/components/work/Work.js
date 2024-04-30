@@ -38,7 +38,7 @@ const Services = () => {
 
                     </Grid>
 
-                    <Grid item xs={12} sm={6}>
+                    <Grid item xs={12} sm={6} >
 
                         <StyledBoxDescription>
 
@@ -97,7 +97,7 @@ const Services = () => {
 
                     </Grid>
 
-                    <Grid item xs={12} sm={6} height={250}>
+                    <Grid item xs={12} sm={6}>
 
                         <StyledBoxDescription>
 
@@ -127,7 +127,7 @@ const Services = () => {
 
                     </Grid>
 
-                    <Grid item xs={12} sm={6} height={250}>
+                    <Grid item xs={12} sm={6}>
 
                         <StyledBoxDescription>
 
