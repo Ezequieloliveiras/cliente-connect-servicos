@@ -6,14 +6,21 @@ import computadoresImage from './images/computador.png'
 
 import {
     Styledtitle,
+    StyledBox,
     StyledBoxDescription,
     ServiceDescription,
     ServiceTitle,
     ServiceImage,
-    StyledBoxImage,
-    ServiceSection,
     Container,
 } from './StylesWork'
+
+import { Grid } from '@mui/material'
+
+// XS = EXTRA SMALL - MENOR PORCAO DE TELA
+// SM = SMALL - MENOR TELA
+// MD = MEDIUM
+// LG = LARGE - TELA LARGA
+// XL = EXTRA LARGE
 
 const Services = () => {
     return (
@@ -21,114 +28,154 @@ const Services = () => {
 
             <Styledtitle>Nossos Serviços</Styledtitle>
 
-            <ServiceSection container >
-                <StyledBoxImage >
+            <StyledBox>
 
-                    <ServiceImage src={cameraImage} alt="Instalação de Câmeras" />
+                <Grid container>
 
-                </StyledBoxImage>
+                    <Grid item xs={12} sm={6} height={250}>
 
-                <StyledBoxDescription >
+                        <ServiceImage src={cameraImage} alt="Instalação de Câmeras" />
 
-                    <ServiceTitle variant='title'>Instalação de Câmeras</ServiceTitle>
+                    </Grid>
 
-                    <ServiceDescription variant='subtitle2'>
+                    <Grid item xs={12} sm={6}>
 
-                        Nossa equipe oferece serviços de instalação de câmeras de segurança para residências e empresas.
+                        <StyledBoxDescription>
 
-                    </ServiceDescription>
+                            <ServiceTitle variant='title'>Instalação de Câmeras</ServiceTitle>
 
-                </StyledBoxDescription>
+                            <ServiceDescription variant='subtitle2'>
 
-            </ServiceSection>
+                                Nossa equipe oferece serviços de instalação de câmeras de segurança para residências e empresas.
 
-            <ServiceSection container>
+                            </ServiceDescription>
 
-                <StyledBoxImage>
+                        </StyledBoxDescription>
 
-                    <ServiceImage src={cabeamentoImage} alt="Instalação de Câmeras" />
+                    </Grid>
 
-                </StyledBoxImage>
+                </Grid>
+            </StyledBox>
 
-                <StyledBoxDescription>
+            <StyledBox>
 
-                    <ServiceTitle variant='title'>Cabeamento Estruturado</ServiceTitle>
+                <Grid container>
 
-                    <ServiceDescription variant='subtitle2'>
+                    <Grid item xs={12} sm={6} height={250}>
 
-                        Oferecemos serviços de planejamento e instalação de cabeamento estruturado para redes de comunicação confiáveis e eficientes.
+                        <ServiceImage src={cabeamentoImage} alt="Instalação de Câmeras" />
 
-                    </ServiceDescription>
+                    </Grid>
 
-                </StyledBoxDescription>
+                    <Grid item xs={12} sm={6}>
 
-            </ServiceSection>
+                        <StyledBoxDescription>
 
-            <ServiceSection container>
+                            <ServiceTitle variant='title'>Cabeamento Estruturado</ServiceTitle>
 
-                <StyledBoxImage>
+                            <ServiceDescription variant='subtitle2'>
 
-                    <ServiceImage src={nobreaksImage} alt="Instalação de Câmeras" />
+                                Oferecemos serviços de planejamento e instalação de cabeamento estruturado para redes de comunicação confiáveis e eficientes.
 
-                </StyledBoxImage>
+                            </ServiceDescription>
 
-                <StyledBoxDescription>
+                        </StyledBoxDescription>
 
-                    <ServiceTitle variant='title'>Manutenção de Nobreaks</ServiceTitle>
+                    </Grid>
 
-                    <ServiceDescription variant='subtitle2'>
+                </Grid>
 
-                    Realizamos manutenção preventiva e corretiva em nobreaks para garantir o funcionamento contínuo de equipamentos sensíveis.
+            </StyledBox>
 
-                    </ServiceDescription>
+            <StyledBox>
 
-                </StyledBoxDescription>
+                <Grid container>
 
-            </ServiceSection>
+                    <Grid item xs={12} sm={6} height={250}>
 
-            <ServiceSection container>
+                        <ServiceImage src={nobreaksImage} alt="Instalação de Câmeras" />
 
-                <StyledBoxImage>
+                    </Grid>
 
-                    <ServiceImage src={servidoresImage} alt="Instalação de Câmeras" />
+                    <Grid item xs={12} sm={6} height={250}>
 
-                </StyledBoxImage>
+                        <StyledBoxDescription>
 
-                <StyledBoxDescription>
+                            <ServiceTitle variant='title'>Manutenção de Nobreaks</ServiceTitle>
 
-                    <ServiceTitle variant='title'>Instalação de Servidores</ServiceTitle>
+                            <ServiceDescription variant='subtitle2'>
 
-                    <ServiceDescription variant='subtitle2'>
+                                Realizamos manutenção preventiva e corretiva em nobreaks para garantir o funcionamento contínuo de equipamentos sensíveis.
 
-                        Nossa equipe está capacitada para realizar a instalação e configuração de servidores para atender às demandas de armazenamento e processamento de dados.
+                            </ServiceDescription>
 
-                    </ServiceDescription>
+                        </StyledBoxDescription>
 
-                </StyledBoxDescription>
+                    </Grid>
 
-            </ServiceSection>
+                </Grid>
 
-            <ServiceSection container>
+            </StyledBox>
 
-                <StyledBoxImage>
+            <StyledBox>
 
-                    <ServiceImage src={computadoresImage} alt="Instalação de Câmeras" />
+                <Grid container>
 
-                </StyledBoxImage>
+                    <Grid item xs={12} sm={6} height={250}>
 
-                <StyledBoxDescription>
+                        <ServiceImage src={servidoresImage} alt="Instalação de Câmeras" />
 
-                    <ServiceTitle variant='title'>Manutenção de Computadores</ServiceTitle>
+                    </Grid>
 
-                    <ServiceDescription variant='subtitle2'>
+                    <Grid item xs={12} sm={6} height={250}>
 
-                        Oferecemos serviços de manutenção e reparo de computadores para garantir o desempenho e a confiabilidade dos sistemas.
+                        <StyledBoxDescription>
 
-                    </ServiceDescription>
+                            <ServiceTitle variant='title'>Instalação de Servidores</ServiceTitle>
 
-                </StyledBoxDescription>
+                            <ServiceDescription variant='subtitle2'>
 
-            </ServiceSection>
+                                Nossa equipe está capacitada para realizar a instalação e configuração de servidores para atender às demandas de armazenamento e processamento de dados.
+
+                            </ServiceDescription>
+
+                        </StyledBoxDescription>
+
+                    </Grid>
+
+                </Grid>
+
+            </StyledBox>
+
+            <StyledBox>
+
+                <Grid container>
+
+                    <Grid item xs={12} sm={6}>
+
+                        <ServiceImage src={computadoresImage} alt="Instalação de Câmeras" />
+
+                    </Grid>
+
+                    <Grid item xs={12} sm={6}>
+
+                        <StyledBoxDescription>
+
+                            <ServiceTitle variant='title'>Manutenção de Computadores</ServiceTitle>
+
+                            <ServiceDescription variant='subtitle2'>
+
+                                Oferecemos serviços de manutenção e reparo de computadores para garantir o desempenho e a confiabilidade dos sistemas.
+
+                            </ServiceDescription>
+
+                        </StyledBoxDescription>
+
+                    </Grid>
+
+                </Grid>
+
+            </StyledBox>
 
         </Container>
     )

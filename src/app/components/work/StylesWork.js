@@ -3,7 +3,6 @@ import Image from 'next/image'
 
 import {
   Box,
-  Grid,
   Typography,
 } from '@mui/material'
 
@@ -12,6 +11,8 @@ const Container = styled.div`
   max-width: 800px;
   padding: 40px 20px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 `
 const Title = styled.h1`
@@ -22,34 +23,20 @@ const Title = styled.h1`
 }
 
 `
-const ServiceSection = styled(Grid)`
-  && {
-  display: flex;
-  border-radius: 11px;
-  box-shadow: 0px 0px 3px 0px;
-  margin-top: 50PX;
-}
-
-`
-const StyledBoxImage = styled(Box)`
- && {
-  height: 400px;
-  width: 100%;
-  }
-
-  @media (max-width: 768px) {
-    height: 200px;
-    width: 100%;
-}
-`
 const ServiceImage = styled(Image)`
  && {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 5px 0px 0px 5px;
 }
-  
+`
+const StyledBox = styled(Box)`
+&& {
+    margin: 10px;
+    box-shadow: 0px 0px 5px 0px grey;
+    border-radius: 5px;
+}
 `
 const ServiceTitle = styled(Typography)`
   && {
@@ -85,12 +72,11 @@ const Styledtitle = styled.h1`
 `
 export {
   Styledtitle,
+  StyledBox,
   StyledBoxDescription,
   ServiceDescription,
   ServiceTitle,
   ServiceImage,
-  StyledBoxImage,
-  ServiceSection,
   Title,
   Container,
 }
