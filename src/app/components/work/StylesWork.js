@@ -1,12 +1,17 @@
 import styled from 'styled-components'
 import Image from 'next/image'
-import { Box, Grid, Typography } from '@mui/material'
+
+import {
+  Box,
+  Grid,
+  Typography,
+} from '@mui/material'
 
 const Container = styled.div`
   && {
   max-width: 800px;
+  padding: 40px 20px;
   margin: 0 auto;
-  padding: 40px 5px;
 }
 `
 const Title = styled.h1`
@@ -79,13 +84,13 @@ const Styledtitle = styled.h1`
 }
 `
 export {
-    Styledtitle,
-    StyledBoxDescription,
-    ServiceDescription,
-    ServiceTitle,
-    ServiceImage,
-    StyledBoxImage,
-    ServiceSection,
-    Title,
-    Container,
+  Styledtitle,
+  StyledBoxDescription,
+  ServiceDescription,
+  ServiceTitle,
+  ServiceImage,
+  StyledBoxImage,
+  ServiceSection,
+  Title,
+  Container,
 }

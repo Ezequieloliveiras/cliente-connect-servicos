@@ -1,14 +1,13 @@
-import { Grid, Box } from '@mui/material'
+import { Box } from '@mui/material'
 
 import {
   StyledGridSectionTwo,
   StyledTitleSection,
 } from '../HomeStyles'
 
-import  ServiceImage  from './ImagesServices'
+import ServiceImage from './ImagesServices'
 
 export default function SectionTwo() {
-
 
   return (
     <>
@@ -23,7 +22,7 @@ export default function SectionTwo() {
 
         <Box>
 
-         <ServiceImage />
+          <ServiceImage />
 
         </Box>
 

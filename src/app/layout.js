@@ -1,15 +1,18 @@
 'use client'
 import StyledComponentsRegistry from './registry'
 import { Inter } from "next/font/google";
-import Header from './partials/Header'
-import Footer from './partials/Footer'
+import Header from './partials/header/Header'
+import Footer from './partials/footer/Footer'
 import styled from 'styled-components'
 
 const inter = Inter({ subsets: ["latin"] })
 
-const StyledBody = styled.body`
-margin: 0;
-padding: 0;
+const StyledContent = styled.div`
+
+ && {
+ height: 100%;
+}
+
 `
 
 export default function RootLayout({ children }) {
@@ -17,15 +20,24 @@ export default function RootLayout({ children }) {
     <>
       <html lang="pt-br">
 
-        <StyledBody className={inter.className} style={{ margin: '0px', padding: '0px' }}>
+        <body className={inter.className} style={{ margin: '0px', padding: '0px' }}>
+          
           <StyledComponentsRegistry>
+
               <Header />
-              <div style={{minHeight:'100vh'}}>
+
+              <StyledContent>
+
                 {children}
-              </div>
+
+              </StyledContent>
+
             <Footer />
+
           </StyledComponentsRegistry>
-        </StyledBody>
+
+        </body>
+
       </html>
 
     </>

@@ -5,7 +5,9 @@ import Typography from '@mui/material/Typography'
 import { CardActionArea } from '@mui/material'
 
 export default function ActionAreaCard() {
+
   return (
+
     <Card sx={{ maxWidth: 345, margin: '5px' }}>
 
       <CardActionArea>
@@ -19,9 +21,13 @@ export default function ActionAreaCard() {
 
         <CardContent >
 
-          <Typography gutterBottom variant="h5" component="div" sx={{ color: '#9ccc65' }}>
+          <Typography
+            gutterBottom
+            variant="h5"
+            sx={{ color: '#9ccc65' }}>
 
             Portfólios de Arte
+
           </Typography>
 
           <Typography color="text.secondary">

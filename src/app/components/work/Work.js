@@ -13,7 +13,7 @@ import {
     StyledBoxImage,
     ServiceSection,
     Container,
-} from './StylesServices'
+} from './StylesWork'
 
 const Services = () => {
     return (

@@ -1,4 +1,5 @@
-import Drawer from './Drawer'
+import Drawer from '../drawer/Drawer'
+
 import {
     StyledAppBar,
     StyledToolbar,
@@ -39,7 +40,7 @@ function ResponsiveAppBar() {
                        Inicío
                     </StyledBoxButtonsMenu>
 
-                    <StyledBoxButtonsMenu href='/pages/servicos'>
+                    <StyledBoxButtonsMenu href='/pages/works'>
                         Serviços
                     </StyledBoxButtonsMenu>
 

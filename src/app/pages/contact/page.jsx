@@ -5,9 +5,9 @@ import ContactPage from "@/app/components/contact/Contact"
 const Contact = () => {
 
   return (
+    
     <ContactPage />
 
-   
   )
 }
 
