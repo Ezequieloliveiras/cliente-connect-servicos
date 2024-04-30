@@ -28,7 +28,7 @@ const ServiceImage = styled(Image)`
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 5px;
 }
 `
 const StyledBox = styled(Box)`
