@@ -16,7 +16,7 @@ export default function SectionOne() {
 
   return (
     <>
-      <Image src={Banner} style={{ height: 'auto', width: '100%', display: 'flex', objectFit:'cover' }} />
+      <Image src={Banner} style={{ height: 'auto', width: '100%', display: 'flex', objectFit:'cover' }}  alt='banner'/>
 
       <Section item xs={12}>
 

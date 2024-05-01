@@ -1,15 +1,20 @@
 import {
-  Container,
-  Grid,
   Typography
 } from '@mui/material'
 
 import {
+  ConatinerFooter,
+  BoxContent,
+  ContentFooter,
+  TitleFooter,
+  Description,
   BoxFooter,
   List,
   LinkFooter,
+  StyledIframe,
+  ContainerMap,
+  Info,
 } from './StylesFooter'
-
 
 const Footer = () => {
 
@@ -17,54 +22,55 @@ const Footer = () => {
 
     <BoxFooter>
 
-      <Container>
+      <ConatinerFooter>
 
-        <Grid container spacing={3}>
+        <BoxContent container spacing={3}>
 
-          <Grid item xs={12} sm={4}>
+          <ContentFooter item xs={12} sm={4}>
 
-            <Typography variant="h6">Contato do Criador</Typography>
+            <TitleFooter variant="h6" >Contato</TitleFooter>
 
-            <List >
+            <Description>
 
-              <Typography>Email: connectservicos@email.com</Typography>
+              <Description>Email: connectservicos@email.com</Description>
 
-              <Typography>Telefone: (27) 99999-9999</Typography>
+              <Description>Telefone: +55 27 99911-7096</Description>
 
-              <Typography>Endereço: Vitória-ES</Typography>
+              <Description>Endereço: Serra-ES</Description>
 
-            </List>
+            </Description>
 
-          </Grid>
+          </ContentFooter>
 
-          <Grid item xs={12} sm={4}>
+          <ContentFooter item xs={12} sm={4}>
 
-            <Typography variant="h6">Sobre</Typography>
+            <TitleFooter variant="h6">Sobre</TitleFooter>
 
-            <Typography>
+            <Description>
 
-            Nossa equipe oferece serviços de soluções tecnológicas para residências e empresas.
-            </Typography>
+              Nossa equipe oferece serviços de soluções tecnológicas para residências e empresas.
 
-          </Grid>
+            </Description>
 
-          <Grid item xs={12} sm={4}>
+          </ContentFooter>
 
-            <Typography variant="h6">Saiba Mais</Typography>
+          <ContentFooter item xs={12} sm={4} >
+
+            <TitleFooter variant="h6">Saiba Mais</TitleFooter>
 
             <List>
 
-              <Typography>
+              <Description>
 
-                <LinkFooter>
+                <Typography>
 
                   Termos de Serviço
 
-                </LinkFooter>
+                </Typography>
 
-              </Typography>
+              </Description>
 
-              <Typography>
+              <Description>
 
                 <LinkFooter>
 
@@ -72,20 +78,36 @@ const Footer = () => {
 
                 </LinkFooter>
 
-              </Typography>
+              </Description>
 
             </List>
 
-          </Grid>
+          </ContentFooter>
 
-        </Grid>
+        </BoxContent>
 
-      </Container>
+      </ConatinerFooter>
+
+      <ContainerMap>
+
+        <StyledIframe
+
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29955.958223326124!2d-40.27828282862653!3d-20.196750750131496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb81edd09f20441%3A0xa492f5f0f308065!2sParque%20Res.%20Laranjeiras%2C%20Serra%20-%20ES!5e0!3m2!1spt-BR!2sbr!4v1714589805845!5m2!1spt-BR!2sbr" alt='map'>
+
+        </StyledIframe>
+
+      </ContainerMap>
+
+      <Info>
+
+        Create by sitevix 2024
+
+      </Info>
 
     </BoxFooter>
 
   )
-  
+
 }
 
 export default Footer
