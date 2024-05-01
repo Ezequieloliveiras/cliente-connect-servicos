@@ -56,7 +56,7 @@ const ContactPage = () => {
 
               <WhatsAppNumberIcon />
 
-              <Link href="https://api.whatsapp.com/send?phone=279999-9999">WhatsApp</Link>
+              <Link href="https://api.whatsapp.com/send?phone=2799911-7096">WhatsApp</Link>
 
             </BoxContacts>
 
