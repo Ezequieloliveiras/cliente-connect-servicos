@@ -13,9 +13,9 @@ function Carousel() {
 
 const data = [
 
-    {id: '1', image: 'https://i.imgur.com/eXpeNf2.png', title: 'Sites Corporativos'},
-    {id: '2', image: 'https://i.imgur.com/bWLTwdI.png', title:'Lojas Online'},
-    {id: '3', image: 'https://i.imgur.com/CzA6DD2.png', title:'Blogs'},
+    {id: '1', image: 'https://i.imgur.com/OdlPjlc.jpeg', title: 'Sites Corporativos'},
+    {id: '2', image: 'https://i.imgur.com/Fiq4A2j.jpeg', title:'Lojas Online'},
+    {id: '3', image: 'https://i.imgur.com/MNW8iTF.png', title:'Blogs'},
 
 ]
 
@@ -33,9 +33,9 @@ const data = [
 
             <SwiperSlide key={item.id} className='swiper-slider'>
 
-              <div className="slider-item-container">
+              <div className="slider-item-container" >
 
-                <img src={item.image} alt='slider' className='slider-item' />
+                <img src={item.image} alt='slider' className='slider-item' style={{height:'400px', width:'600px'}}/>
 
               </div>
 

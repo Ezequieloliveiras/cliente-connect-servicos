@@ -123,7 +123,7 @@ const Services = () => {
 
                     <Grid item xs={12} sm={6} height={250}>
 
-                        <ServiceImage src={servidoresImage} alt="Instalação de Câmeras" />
+                        <ServiceImage src={servidoresImage} alt="Instalação de Servidores" />
 
                     </Grid>
 

@@ -7,13 +7,6 @@ import styled from 'styled-components'
 
 const inter = Inter({ subsets: ["latin"] })
 
-const StyledContent = styled.div`
-
- && {
- height: 100%;
-}
-
-`
 
 export default function RootLayout({ children }) {
   return (
@@ -21,16 +14,12 @@ export default function RootLayout({ children }) {
       <html lang="pt-br">
 
         <body className={inter.className} style={{ margin: '0px', padding: '0px' }}>
-          
+
           <StyledComponentsRegistry>
 
-              <Header />
+            <Header />
 
-              <StyledContent>
-
-                {children}
-
-              </StyledContent>
+            {children}
 
             <Footer />
 

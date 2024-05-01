@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import { Box, Grid } from '@mui/material'
 
-
 const StyledGridSectionOne = styled(Grid)`
     && {
       min-height: 500px;

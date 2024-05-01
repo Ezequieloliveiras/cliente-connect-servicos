@@ -1,32 +1,35 @@
-import { Box, Typography, Link } from '@mui/material'
+import {
+  Box,
+  Typography,
+  Link
+} from '@mui/material'
 
 import {
-  StyledDivCard,
-  StyledContainer,
-  StyledContainerBanner,
-  StyledBanner,
-  StyledWhatsAppIcon,
-  StyledForwardToInboxIcon,
-  StyledBoxContacts,
-  StyledBox,
+  Container,
+  ContainerBanner,
+  Banner,
+  WhatsAppNumberIcon,
+  ForwardToInboxIconEmail,
+  BoxContacts,
+  BoxContent,
 } from './StylesContact'
 
-import Banner from './banner.png'
+import ImageBanner from './banner.png'
 
 const ContactPage = () => {
 
   return (
-    <StyledContainer >
+    <>
 
-      <StyledContainerBanner>
+      <ContainerBanner>
 
-        <StyledBanner src={Banner} alt="Imagem" />
+        <Banner src={ImageBanner} alt="Imagem" />
 
-      </StyledContainerBanner>
+      </ContainerBanner>
 
-      <StyledDivCard>
+      <Container>
 
-        <StyledBox>
+        <BoxContent>
 
           <Typography color="grey">
 
@@ -41,29 +44,29 @@ const ContactPage = () => {
             justifyContent='center'
           >
 
-            <StyledBoxContacts marginBottom={1}>
+            <BoxContacts marginBottom={1}>
 
-              <StyledForwardToInboxIcon />
+              <ForwardToInboxIconEmail />
 
               <Link href="mailto:connectservicos@email.com">connectservicos@email.com</Link>
 
-            </StyledBoxContacts>
+            </BoxContacts>
 
-            <StyledBoxContacts >
+            <BoxContacts >
 
-              <StyledWhatsAppIcon />
+              <WhatsAppNumberIcon />
 
               <Link href="https://api.whatsapp.com/send?phone=279999-9999">WhatsApp</Link>
 
-            </StyledBoxContacts>
+            </BoxContacts>
 
           </Box>
 
-        </StyledBox>
-        
-      </StyledDivCard>
+        </BoxContent>
 
-    </StyledContainer>
+      </Container>
+
+    </>
 
   )
 
