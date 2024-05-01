@@ -5,9 +5,9 @@ import {
 } from '@mui/material'
 
 import {
-  StyledBoxFooter,
-  StyledList,
-  StyledLink,
+  BoxFooter,
+  List,
+  LinkFooter,
 } from './StylesFooter'
 
 
@@ -15,7 +15,7 @@ const Footer = () => {
 
   return (
 
-    <StyledBoxFooter >
+    <BoxFooter>
 
       <Container>
 
@@ -25,7 +25,7 @@ const Footer = () => {
 
             <Typography variant="h6">Contato do Criador</Typography>
 
-            <StyledList >
+            <List >
 
               <Typography>Email: connectservicos@email.com</Typography>
 
@@ -33,7 +33,7 @@ const Footer = () => {
 
               <Typography>Endereço: Vitória-ES</Typography>
 
-            </StyledList>
+            </List>
 
           </Grid>
 
@@ -52,29 +52,29 @@ const Footer = () => {
 
             <Typography variant="h6">Saiba Mais</Typography>
 
-            <StyledList>
+            <List>
 
               <Typography>
 
-                <StyledLink  >
+                <LinkFooter>
 
                   Termos de Serviço
 
-                </StyledLink>
+                </LinkFooter>
 
               </Typography>
 
               <Typography>
 
-                <StyledLink >
+                <LinkFooter>
 
                   Política de Privacidade
 
-                </StyledLink>
+                </LinkFooter>
 
               </Typography>
 
-            </StyledList>
+            </List>
 
           </Grid>
 
@@ -82,7 +82,7 @@ const Footer = () => {
 
       </Container>
 
-    </StyledBoxFooter>
+    </BoxFooter>
 
   )
   

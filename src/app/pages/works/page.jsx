@@ -1,6 +1,6 @@
 'use client'
 
-import WorkPage from '../../components/work/Work'
+import WorkPage from "@/components/work/Work"
 
 const Works = () => {
 
@@ -8,7 +8,7 @@ const Works = () => {
 
     <>
 
-      <WorkPage />
+      <WorkPage/>
 
     </>
 
@@ -16,4 +16,4 @@ const Works = () => {
 
 }
 
-export default Works;
+export default Works

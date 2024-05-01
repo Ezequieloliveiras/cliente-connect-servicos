@@ -5,7 +5,7 @@ import {
   Title,
 } from './StylesSecondary'
 
-import ServiceImage from './ImagesServices'
+import CarouselImages from './Carousel'
 
 export default function SectionrTwo() {
 
@@ -22,7 +22,7 @@ export default function SectionrTwo() {
 
         <Box>
 
-          <ServiceImage />
+          <CarouselImages/>
 
         </Box>
 

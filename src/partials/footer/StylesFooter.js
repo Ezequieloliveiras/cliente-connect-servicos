@@ -1,8 +1,10 @@
-import { Box } from '@mui/material'
-import { Link } from '@mui/material'
 import styled from 'styled-components'
+import {
+  Box,
+  Link,
+} from '@mui/material'
 
-const StyledBoxFooter = styled(Box)`
+const BoxFooter = styled(Box)`
 
     && {
       background-color: rgb(12, 60, 96);
@@ -10,15 +12,14 @@ const StyledBoxFooter = styled(Box)`
       padding: 50px 0 ;
     }
 `
-const StyledList = styled.li`
+const List = styled.li`
 
     && {
       list-style: none;
       padding: 0 ;
     }
 `
-
-const StyledLink = styled(Link)`
+const LinkFooter = styled(Link)`
 
     && {
       color: #fff;
@@ -26,7 +27,7 @@ const StyledLink = styled(Link)`
     }
 `
 export {
-    StyledBoxFooter,
-    StyledList,
-    StyledLink,
+  BoxFooter,
+  List,
+  LinkFooter,
 }

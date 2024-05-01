@@ -2,7 +2,11 @@ import styled from 'styled-components'
 import Image from 'next/image'
 import WhatsAppIcon from '@mui/icons-material/WhatsApp'
 import ForwardToInboxIcon from '@mui/icons-material/ForwardToInbox'
-import { Box, Grid } from '@mui/material'
+
+import {
+  Box,
+  Grid
+} from '@mui/material'
 
 const Container = styled.div`
   display:flex;

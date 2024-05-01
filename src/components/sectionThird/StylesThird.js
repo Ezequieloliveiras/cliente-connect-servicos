@@ -1,5 +1,9 @@
 import styled from 'styled-components'
-import { Box, Grid } from '@mui/material'
+
+import {
+  Box,
+  Grid
+} from '@mui/material'
 
 const BoxSection = styled(Box)`
     && {
@@ -57,9 +61,9 @@ const Section = styled(Grid)`
 `
 
 export {
-    BoxSection,
-    Title,
-    Subtitle,
-    Paragraphy,
-    Section,
+  BoxSection,
+  Title,
+  Subtitle,
+  Paragraphy,
+  Section,
 }

@@ -1,9 +1,9 @@
 'use client'
 import StyledComponentsRegistry from './registry'
 import { Inter } from "next/font/google";
-import Header from './partials/header/Header'
-import Footer from './partials/footer/Footer'
-import styled from 'styled-components'
+import Header from '../partials/header/Header'
+import Footer from '../partials/footer/Footer'
+
 
 const inter = Inter({ subsets: ["latin"] })
 

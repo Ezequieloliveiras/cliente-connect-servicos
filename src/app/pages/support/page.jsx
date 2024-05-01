@@ -1,6 +1,6 @@
 'use client'
 
-import Support from "@/app/components/support/Support"
+import SupportPage from "@/components/support/Support"
 
 const PageSupport = () => {
 
@@ -8,7 +8,7 @@ const PageSupport = () => {
         
         <>
 
-            <Support />
+            <SupportPage />
 
         </>
         

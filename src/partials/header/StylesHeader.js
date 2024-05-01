@@ -1,10 +1,14 @@
-import AppBar from '@mui/material/AppBar'
-import Box from '@mui/material/Box'
-import Toolbar from '@mui/material/Toolbar'
-import Typography from '@mui/material/Typography'
-import Button from '@mui/material/Button'
 import styled from 'styled-components'
 import Link from 'next/link'
+
+import {
+    AppBar,
+    Box,
+    Toolbar,
+    Typography,
+    Button,
+} from '@mui/material'
+
 
 const StyledAppBar = styled(AppBar)`
 
@@ -25,7 +29,7 @@ const StyledToolbar = styled(Toolbar)`
         color: #757575;
     }
 `
-const StyledLinkLogo= styled(Link)`
+const LinkLogo= styled(Link)`
 
     && {
         display: flex;
@@ -37,7 +41,7 @@ const StyledLinkLogo= styled(Link)`
         margin-right: 10px;
     }
 `
-const StyledTypographyLogo = styled(Typography)`
+const TypographyLogo = styled(Typography)`
 
     && {
         font-weight: bold;
@@ -46,7 +50,7 @@ const StyledTypographyLogo = styled(Typography)`
         margin-right: 5px;
     }
 `
-const StyledTypographyPartialLogo = styled(Typography)`
+const TypographyPartialLogo = styled(Typography)`
 
     && {
         font-weight: bold;
@@ -54,7 +58,7 @@ const StyledTypographyPartialLogo = styled(Typography)`
         font-size: 20px;
     }
 `
-const StyledBoxButtons = styled(Box)`
+const BoxButtons = styled(Box)`
 
     && {
         flex-grow: 1;
@@ -64,13 +68,8 @@ const StyledBoxButtons = styled(Box)`
         }
     }
 `
-const StyledBoxButtonsMenuIcon = styled(Button)`
 
-    && {
-        color: #ef6c00;
-    }
-`
-const StyledBoxButtonsMenu = styled(Button)`
+const BoxButtonsMenu = styled(Button)`
 
     && {
         color: #fff;
@@ -78,7 +77,7 @@ const StyledBoxButtonsMenu = styled(Button)`
         text-transform: none;
     }
 `
-const StyledBoxContent = styled(Box)`
+const BoxContent = styled(Box)`
 
     && {
         flex-grow: 1;
@@ -93,11 +92,10 @@ const StyledBoxContent = styled(Box)`
 export {
     StyledAppBar,
     StyledToolbar,
-    StyledLinkLogo,
-    StyledTypographyLogo,
-    StyledTypographyPartialLogo,
-    StyledBoxButtons,
-    StyledBoxButtonsMenuIcon,
-    StyledBoxButtonsMenu,
-    StyledBoxContent,
+    LinkLogo,
+    TypographyLogo,
+    TypographyPartialLogo,
+    BoxButtons,
+    BoxButtonsMenu,
+    BoxContent,
 }

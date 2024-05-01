@@ -1,12 +1,12 @@
 'use client'
 
-import ContactPage from "@/app/components/contact/Contact"
+import ContactPage from "@/components/contact/Contact"
 
 const Contact = () => {
 
   return (
     
-    <ContactPage />
+    <ContactPage/>
 
   )
 }
