@@ -1,22 +1,21 @@
 'use client'
 
-import { Grid } from '@mui/material'
-import SectionOne from './components/sectionOne/SectionOne'
-import SectionTwo from './components/sectionTwo/SectionTwo'
-import SectionTree from './components/sectionTree/SectionTree'
+import SectionPrimary from './components/sectionPrimary/SectionPrimary'
+import SectionSecondary from './components/sectionSecondary/SectionSecondary'
+import SectionThird from './components/sectionThird/SectionThird'
 
 export default function Home() {
 
   return (
-    <Grid>
+    <>
 
-      <SectionOne />
+      <SectionPrimary/>
 
-      <SectionTwo />
+      <SectionSecondary/>
 
-      <SectionTree />
+      <SectionThird/>
 
-    </Grid>
+    </>
 
   )
 
